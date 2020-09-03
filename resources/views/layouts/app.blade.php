@@ -34,7 +34,12 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-
+                        <li class="nav-item">
+                            <a href="{{ url('grafico') }}" class="nav-link">Graficos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ url('grafico/uf') }}" class="nav-link">Grafico UF</a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
